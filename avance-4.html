@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>my pimera pag wed</title>
+</head>
+<body>
+
+
+<button onclick="Ejerciciouno()">
+ejerciciouno
+</button>
+
+<button onclick="ejerciciodos()">
+ejerciciodos
+</button>
+
+<button onclick="ejerciciotres()">
+ejerciciotres
+</button>
+<script>
+    //ejercicio 1.- ((10 > 5) || (15 == 6) && false ))
+    //               (( True) || ((false) && false))
+    //                (True    ||      false   ) 
+    //               (           True          )
+    function Ejerciciouno(){
+        if ((10>5)||((15==6) && false)){
+              alert("TRUE")
+        }else{
+            alert("false")
+        }
+    }
+// EJERCICIO 2.- ( (5==5) || (10 < 9) && )) ((5>5)&& (O!=1))
+//           (( TRUE  )  || ( FALSE)) && (FALSE)&&(TRUE))
+//           (  TRUE                ) && ( FALSE        )
+//           (                  FALSE                  )
+
+function Ejerciciodos(){
+        if ((5==5)||((10<9)) && (5>5) && (0!=1)
+              alert("TRUE")
+        }else{
+            alert("false")
+        }
+    }
+
+//ejercicio3.- ((=>7) && (false== true) ) && (8>9)
+//             ((True)&& ( false       )) && (false)
+//              (      false           )  && (false)
+//               (               false              )
+function ejerciciotres(){
+     (((7>=7) && (false== true)) && (8>9)){
+    alert("TRUE")
+    }else{
+        alert("false")
+        }
+    }
+
+
+</Script>
+
+
+
+</body>
+
+
+</html>
